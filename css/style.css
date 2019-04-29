@@ -1,0 +1,285 @@
+/*  Navigition part CSS */
+.nav-title {
+	font-family: "times new roman", cursive;
+}
+
+.navbar-header .nav-title:hover,
+.navbar-header .nav-title:focus {
+	background: #fff;
+	color: #000;
+}
+
+.cative {
+	font-family: "times new roman", cursive;
+	font-size: 20px;
+}
+
+.navbar-collapse .navbar-nav li a:hover,
+.navbar-collapse .navbar-nav li a:focus {
+	color: #000;
+	background: #fff;
+}
+
+.navbar-color {
+	background-color: white;
+	border-color: white;
+}
+
+/* Base Body part CSS */
+body {
+	padding-top: 20px;
+}
+
+p strong {
+	color: #000000;
+}
+
+p {
+	color: white;
+	font-size: 25px;
+}
+
+h1 {
+	background-color: #88499C;
+	text-align: center;
+	margin-top: 0;
+
+}
+
+/* My design CSS */
+.Myh1 {
+	color: white;
+}
+
+.Mycontainer {
+	margin-top: 40px;
+	background-color: #88499C;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Mycontainer:before,
+.Mycontainer:after {
+	display: table;
+	content: " ";
+}
+
+.Mycontainer:after {
+	clear: both;
+}
+
+@media (min-width: 768px) {
+	.Mycontainer {
+		width: 750px;
+	}
+}
+
+@media (min-width: 768px) {
+	.Mycontainer {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.Mycontainer {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.Mycontainer {
+		width: 1170px;
+	}
+}
+
+.imgcard {
+	background-color: #88499C;
+}
+
+.imgcard p {
+	text-align: center;
+	color: white;
+}
+
+
+
+#p1style {
+	font-family: "times new roman";
+}
+
+a {
+	color: #3276B1;
+}
+
+/* Important message CSS */
+.important {
+	font-size: 40px;
+	color: red;
+}
+
+/* Table CSS */
+table {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+
+table caption {
+	font-size: 1.5em;
+	margin: .5em 0 .75em;
+}
+
+table tr {
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	padding: .35em;
+}
+
+table th,
+table td {
+	padding: .625em;
+	text-align: center;
+}
+
+table th {
+	font-size: .85em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+	table {
+		border: 0;
+	}
+
+	table caption {
+		font-size: 1.3em;
+	}
+
+	table thead {
+		border: none;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+
+	table tr {
+		border-bottom: 3px solid #ddd;
+		display: block;
+		margin-bottom: .625em;
+	}
+
+	table td {
+		border-bottom: 1px solid #ddd;
+		display: block;
+		font-size: .8em;
+		text-align: right;
+	}
+
+	table td::before {
+		/*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	table td:last-child {
+		border-bottom: 0;
+	}
+}
+
+.listStyle {
+	font-family: verdana, arial, sans-serif;
+	font-size: 20px;
+	color: #A6E1EC;
+	border-width: 1px;
+	border-color: #3276B1;
+}
+
+.MyListStyle li {
+	display: inline;
+	float: left;
+}
+
+.MyListStyle a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.MyListStyle {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.MyListStyle a:hover {
+	background-color: #111;
+}
+
+div.imgdiv {
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+}
+
+/* Footer Container CSS */
+.Footercontainer {
+	margin-top: 30px;
+	background-color: black;
+}
+
+.Footercontainer a {
+	display: block;
+	text-align: center;
+	margin-right: 30px;
+	font-family: "arial";
+	color: white;
+	font-size: 1.5em;
+}
+
+.Footercontainer p {
+	text-align: center;
+	font-family: "arial";
+	color: white;
+	font-size: 1.5em;
+}
+
+.AnimalContainer {
+	margin-top: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.AnimalContainer:before,
+.AnimalContainer:after {
+	display: table;
+	content: " ";
+}
+
+.AnimalContainer:after {
+	clear: both;
+}
