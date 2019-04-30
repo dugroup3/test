@@ -1,18 +1,19 @@
 <?php
 header("content-type:text/html;charset=utf8");
 
-$servername = "mydb.ce12oaotat2e.eu-west-2.rds.amazonaws.com";
+$servername = "dbtest.ce12oaotat2e.eu-west-2.rds.amazonaws.com";
 $username = "root";
 $password = "12341234";
 
 // 创建连接
-$conn = mysqli_connect($servername, $username, $password,'testdb');
+$conn = mysqli_connect($servername, $username, $password,'dbtest');
 
 // 检测连接
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
+echo "chenggong ";
 $sql="SELECT * FROM staff";
 
 $result = mysqli_query($conn,$sql);
